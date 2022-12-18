@@ -1,0 +1,3 @@
+#!/bin/bash
+tail -n +2 | -f  -l | sort -k l | uniq -c | sort - rnk 1 | haed - 11
+| rev | cut -d ' ' -f -l | rev
